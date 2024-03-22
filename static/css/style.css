@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Custom colors */
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-about {
+    background-color: #280436;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: rgba(54, 29, 50, .5);
+    color: #555555;
+}
+
+
+/* Header  */
+
+.padding-fix {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+
+.my-image {
+    background: url("../images/nobody.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
