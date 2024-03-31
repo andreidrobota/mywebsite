@@ -2,6 +2,10 @@
 
 /* Custom colors */
 
+.text-white {
+    color: white;
+}
+
 .bg-color-contact {
     background-color: #ffffff;
 }
@@ -22,6 +26,10 @@
     background-color: #d9a81d 
 }
 
+.bg-education {
+    background-color: #280436;
+}
+
 
 body {
     font-family: Roboto, sans-serif;
@@ -29,6 +37,7 @@ body {
     background-color: rgba(54, 29, 50, .5);
     color: #555555;
 }
+
 
 
 /* Header  */
@@ -119,11 +128,12 @@ header {
 /* Footer */
 
 footer {
-    border-top: 2px black solid;
-    position: fixed;
-    bottom: 0;
+    background-color: rgba(54, 29, 50, .7);
     width: 100%;
-    padding: 5px;
+}
+
+.social-footer {
+    margin: 20px;
 }
 
 footer h6 {
@@ -140,4 +150,22 @@ footer h6 {
 
 .social:hover {
     color: black;
+}
+
+
+/* About page */
+
+/* Education container */
+
+.education {
+    background-color: #280436;
+    color: white;
+}
+
+.about-circle {
+    letter-spacing: 8px;
+}
+
+.border-fix {
+    border: none;
 }
