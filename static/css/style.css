@@ -19,7 +19,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #d9a81d;
+    background-color: #d9a81d 
 }
 
 
@@ -108,4 +108,36 @@ header {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+/* Hover.css */
+
+.hvr-bounce-to-bottom::before {
+    background: rgba(0,0,0,.1) !important;
+}
+
+/* Footer */
+
+footer {
+    border-top: 2px black solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+footer h6 {
+    color: white;
+}
+
+.footerel {
+    font-size: 25px;
+}
+
+.footerel a {
+    color: white;
+}
+
+.social:hover {
+    color: black;
 }
